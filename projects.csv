@@ -1,0 +1,5 @@
+project,tools,description,github_link,live_link,status
+SQL Layoffs Data Cleaning and EDA,"MySQL","Cleaned a global layoffs dataset with staging tables, duplicate removal (ROW_NUMBER + CTE), TRIM, date conversion and null filling, then explored it with GROUP BY, DENSE_RANK and rolling totals.",https://github.com/Mohamed-Hasith/sql-layoffs-data-cleaning-eda,,Completed
+Data Professional Survey Dashboard,"Power BI","Interactive Power BI dashboard analysing a survey of data professionals.",https://github.com/Mohamed-Hasith/powerbi-data-professional-survey-dashboard,,Completed
+Airbnb Data Visualization,"Tableau Public","Tableau dashboard of Airbnb listings including a map of property type by location.",https://github.com/Mohamed-Hasith/airbnb-tableau-dashboard,https://public.tableau.com/app/profile/mohamed.hasith/viz/AirBnb-DataVisualization/Dashboard1,Completed
+Customer Behavior Analysis,"Python, pandas, MySQL, Power BI","Cleaned 3,900 customer records in Python, loaded them to MySQL, answered 10 business questions with SQL, and built a Power BI dashboard.",https://github.com/Mohamed-Hasith/customer-behavior-analysis-python-sql-powerbi,,Completed

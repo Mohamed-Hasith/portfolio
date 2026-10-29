@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mohamed Hasith M | Data Analyst Portfolio</title>
+<style>
+:root{--bg:#f1f4f8;--paper:#fff;--ink:#14213d;--muted:#566176;--line:#d5dce6;--accent:#0b6e6e;--accent-ink:#fff;--grid:rgba(20,33,61,.045)}
+@media (prefers-color-scheme:dark){:root{--bg:#0e1623;--paper:#162135;--ink:#e8edf5;--muted:#9aa7bd;--line:#2a3a54;--accent:#4fd1c5;--accent-ink:#0e1623;--grid:rgba(255,255,255,.04)}}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 "Segoe UI",system-ui,sans-serif;
+background-image:linear-gradient(var(--grid) 1px,transparent 1px),linear-gradient(90deg,var(--grid) 1px,transparent 1px);background-size:32px 32px}
+main{max-width:960px;margin:0 auto;padding:56px 20px 40px}
+h1,h2{font-family:Georgia,"Times New Roman",serif;line-height:1.15;margin:0}
+h1{font-size:clamp(2.2rem,6vw,3.6rem);letter-spacing:-.02em}
+h2{font-size:1.6rem;margin-bottom:16px}
+.role{font-size:1.15rem;color:var(--muted);margin:10px 0 18px}
+.lead{max-width:62ch;margin:0 0 24px}
+section{margin-top:56px}
+.btns{display:flex;flex-wrap:wrap;gap:10px}
+.btn{display:inline-block;padding:10px 18px;border:1.5px solid var(--accent);border-radius:6px;text-decoration:none;color:var(--accent);font-weight:600}
+.btn.primary{background:var(--accent);color:var(--accent-ink)}
+a:focus-visible,.btn:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+.skills{display:flex;flex-wrap:wrap;gap:8px;padding:0;list-style:none;margin:0}
+.skills li{background:var(--paper);border:1px solid var(--line);padding:6px 14px;border-radius:6px;font-weight:600}
+.wrap{overflow-x:auto;background:var(--paper);border:1px solid var(--line);border-radius:8px}
+table{border-collapse:collapse;width:100%;min-width:640px}
+th,td{text-align:left;padding:14px 16px;border-bottom:1px solid var(--line);vertical-align:top}
+th{background:var(--bg);font-size:.9rem;color:var(--muted);font-weight:600}
+tr:last-child td{border-bottom:0}
+td:first-child{font-weight:600;min-width:180px}
+td a{color:var(--accent);font-weight:600;margin-right:12px}
+.tag{font-size:.8rem;border:1px solid var(--line);border-radius:4px;padding:2px 8px;color:var(--muted);white-space:nowrap}
+.edu p{margin:4px 0}
+footer{margin-top:64px;padding-top:20px;border-top:1px solid var(--line);color:var(--muted);font-size:.9rem}
+</style>
+</head>
+<body>
+<main>
+<header>
+<h1>Mohamed Hasith M</h1>
+<p class="role">Data Analyst · Sharjah, UAE</p>
+<p class="lead">I turn raw data into clear answers. I clean and query data in SQL, analyse it in Python and Excel, and present it in Power BI and Tableau dashboards.</p>
+<div class="btns">
+<a class="btn primary" href="#projects">View projects</a>
+<a class="btn" href="https://github.com/Mohamed-Hasith">GitHub</a>
+<a class="btn" href="https://www.linkedin.com/in/mohamed-hasith-406801443/">LinkedIn</a>
+<a class="btn" href="mailto:hasith9943@gmail.com">Email me</a>
+</div>
+</header>
+
+<section>
+<h2>Skills</h2>
+<ul class="skills">
+<li>SQL (MySQL)</li><li>Python</li><li>pandas</li><li>NumPy</li><li>Excel</li><li>Power BI</li><li>Tableau</li><li>Data cleaning</li><li>Dashboards</li>
+</ul>
+</section>
+
+<section id="projects">
+<h2>Projects</h2>
+<div class="wrap">
+<table>
+<thead><tr><th>Project</th><th>Tools</th><th>What I did</th><th>Links</th></tr></thead>
+<tbody>
+<tr><td>SQL Layoffs Data Cleaning and EDA</td><td>MySQL</td><td>Removed duplicates with staging tables and CTEs, standardised text and dates, filled missing values, then explored layoffs by company, industry and year with rankings and rolling totals.</td><td><a href="https://github.com/Mohamed-Hasith/sql-layoffs-data-cleaning-eda">GitHub</a></td></tr>
+<tr><td>Data Professional Survey Dashboard</td><td>Power BI</td><td>Built an interactive dashboard analysing a survey of data professionals.</td><td><a href="https://github.com/Mohamed-Hasith/powerbi-data-professional-survey-dashboard">GitHub</a></td></tr>
+<tr><td>Airbnb Data Visualization</td><td>Tableau Public</td><td>Visualised Airbnb listings, including a map of property type by location.</td><td><a href="https://public.tableau.com/app/profile/mohamed.hasith/viz/AirBnb-DataVisualization/Dashboard1">Live dashboard</a><a href="https://github.com/Mohamed-Hasith/airbnb-tableau-dashboard">GitHub</a></td></tr>
+<tr><td>Customer Behavior Analysis</td><td>Python, pandas, MySQL, Power BI</td><td>Cleaned 3,900 customer records in Python, loaded them to MySQL, answered 10 business questions with SQL, and built a Power BI dashboard. Found that subscribers spend no more than non-subscribers and that about 80% of customers are loyal.</td><td><a href="https://github.com/Mohamed-Hasith/customer-behavior-analysis-python-sql-powerbi">GitHub</a></td></tr>
+</tbody>
+</table>
+</div>
+</section>
+
+<section class="edu">
+<h2>Education</h2>
+<p><strong>Master of Computer Application</strong>, MEASI Institute of Information Technology, Chennai (2024)</p>
+<p><strong>Bachelor of Computer Application</strong>, AVC College, Mayiladuthurai (2022)</p>
+</section>
+
+<section>
+<h2>Contact</h2>
+<p>Email: <a href="mailto:hasith9943@gmail.com" style="color:var(--accent);font-weight:600">hasith9943@gmail.com</a></p>
+</section>
+
+<footer>© Mohamed Hasith M</footer>
+</main>
+</body>
+</html>
